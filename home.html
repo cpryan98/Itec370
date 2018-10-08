@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!--Nick mercado
 itec 370
-ubi profile page-->
+ubi messages page-->
 <html>
-<title>Ubi</title>
+<title>Profile</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -36,6 +36,34 @@ li a:hover:not(.active) {
 .active {
     background-color: #c2011b;
 } 
+    img{
+        margin-left: 20px;
+    }
+    .container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+    .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+    
+    .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+    .time{
+        font-size: 12px;
+        color: #999;
+    }
+   
+   
 </style>
     
 <body style="background-color: black">
@@ -50,62 +78,63 @@ li a:hover:not(.active) {
     
   <!-- The Grid -->
   <div class="w3-row-padding ">
-      <!-- Right Column -->
-    <div class="w3-twothird">
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <div class="w3-container">
-        </br>
-          <img src ="Pics/karen.png" alt = "profile pic" width="80" height="80" class = "w3-circle" align="left" vspace="10px" style="margin-right: 5px">
-          <textarea rows="4" cols="80" maxlength="240">Say what's up!</textarea>
-            
-            <button class="edit" type="submit" style="height: auto; width: auto; float: right; width: 19%">Post!</button>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <img src="Pics/karen.png" class="w3-circle" alt="lewis" width="80" height="80" align="left" vspace="10px" style="margin-right: 5px;">
-          <textarea rows="4" cols="80" readonly="true" style="border-style: none; border-color: Transparent; overflow: auto; background-color: #DCDCDC;"> Here is your post</textarea>
-          <br>
-          <img src="Pics/pika.jpg" class="w3-circle" alt="pika" width="80" height="80" align="left" vspace="10px" style="margin-right: 5px;">
-          <textarea rows="4" cols="80" readonly="true" style="border-style: none; border-color: Transparent; overflow: auto; background-color: #DCDCDC;"> Here is pikachu's post</textarea>
-          <br>
-          <img src="Pics/luigi.jpeg" class="w3-circle" alt="luigi" width="80" height="80" align="left" vspace="10px" style="margin-right: 5px;">
-          <textarea rows="4" cols="80" readonly="true" style="border-style: none; border-color: Transparent; overflow: auto; background-color: #DCDCDC;"> Here is Luigi's post</textarea>
-          <br>
-          <img src="Pics/bugs.jpg" class="w3-circle" alt="bugs bunny" width="80" height="80" align="left" vspace="10px" style="margin-right: 5px;">
-          <textarea rows="4" cols="80" readonly="true" style="border-style: none; border-color: Transparent; overflow: auto; background-color: #DCDCDC;"> Here is Bug Bunny's post</textarea>
-          <br>
-          <img src="Pics/yoda.jpg" class="w3-circle" alt="shoo" width="80" height="80" align="left" vspace="10px" style="margin-right: 5px;">
-          <textarea rows="4" cols="80" readonly="true" style="border-style: none; border-color: Transparent; overflow: auto; background-color: #DCDCDC;"> Yoda's post, here it is</textarea>
-          <br>
-          <img src="Pics/baby.jpg" class="w3-circle" alt="pika" width="80" height="80" align="left" vspace="10px" style="margin-right: 5px;">
-          <textarea rows="4" cols="80" readonly="true" style="border-style: none; border-color: Transparent; overflow: auto; background-color: #DCDCDC;"> Here is the baby's post</textarea>
-          <br>
-        </div>
-      </div>
-
-    <!-- End Right Column -->
-    </div>
+      
     <!-- Left Column -->
-    <div class="w3-third w3-transparent">
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container ">
-          <img src= "Pics/karen.png" style="display: block; margin-left: auto; margin-right: auto; width:80%;" alt="Avatar" >
-          <div class="name_tag">
-            <h2 align="center">Tracy Lewis</h2>
-          </div>
+    <div class="w3-third " >
+      <div class="w3-white w3-text-grey w3-card-4" >
+        <div class="w3-display-container"  style="overflow: scroll">
+            <h1 style="margin-left: 30px">Friends</h1>
+            <p><img src="Pics/pika.jpg" class="w3-circle" alt="pika" width="120" height="120">    &nbsp;&nbsp;&nbsp;&nbsp;@pikapika55</p>
+            <p><img src="Pics/bugs.jpg" class="w3-circle" alt="bugs" width="120" height="120">    &nbsp;&nbsp;&nbsp;&nbsp;@Whatsupdoc</p>
+            <p><img src="Pics/luigi.jpeg" class="w3-circle" alt="luigi" width="120" height="120">    &nbsp;&nbsp;&nbsp;&nbsp;@luigitime89</p>
+            <p><img src="Pics/yoda.jpg" class="w3-circle" alt="yoda" width="120" height="120">    &nbsp;&nbsp;&nbsp;&nbsp;@MrGr33n</p>
+            <p><img src="Pics/drake.jpg" class="w3-circle" alt="drake" width="120" height="120">    &nbsp;&nbsp;&nbsp;&nbsp;@Drizzy6god</p>
+            <p><img src="Pics/baby.jpg" class="w3-circle" alt="baby" width="120" height="120">    &nbsp;&nbsp;&nbsp;&nbsp;@lilbaby</p>
         </div>
-        <div class="w3-container">
-          <p>Lives in <span style="color:blue">Radford, VA</span></p>
-          <p>Grade <span style="color: blue">Am robot - Immortal</span></p>
-          <p>Major <spam style="color: blue">Software Engineering</spam></p>
-          <p>Born on <span style="color: blue">Made in China</span></p>
-        </div>
+       
       </div><br>
 
     <!-- End Left Column -->
     </div>
       
-    
+    <!-- Right Column -->
+    <div class="w3-twothird">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="about_heather" >Messages</h2>
+        
+          <div class="container">
+              <img src="Pics/avi.jpg" alt="Avatar" style="width:100%;">
+              <p>yoooooooo</p>
+                <span class="time">11:00</span>
+          </div>
+          <div class="container darker">
+              <img src="Pics/drake.jpg" alt="drake" class="right" style="width:100%;">
+              <p>what up chillen in the stuuuuuu</p>
+              <span class="time">11:06</span>
+          </div>
+          <div class="container">
+              <img src="Pics/avi.jpg" alt="Avatar" style="width:100%;">
+              <p>check out this new song i been working on <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> www.goodmusic.com</a>&nbsp;</p>
+                <span class="time">11:08</span>
+          </div>
+          <div class="container darker">
+              <img src="Pics/drake.jpg" alt="drake" class="right" style="width:100%;">
+              <p>Damn bro you really got me XD!</p>
+              <span class="time">11:20</span>
+          </div>
+          <div class="container">
+              <img src="Pics/avi.jpg" alt="Avatar" style="width:100%;">
+              <textarea rows="3" cols="90">type something...</textarea>
+              
+              <button type="button" style="width: auto; height: auto; float: right; background-color: lightblue">Send it!</button>
+          </div>
+          
+          
+       
+      </div>
+
+    <!-- End Right Column -->
+    </div>
     
   <!-- End Grid -->
   </div>
