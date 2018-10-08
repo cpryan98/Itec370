@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--Nick mercado
+itec 370
+ubi profile page-->
+<html>
+<title>Profile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto", sans-serif
+    }
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #c2011b;
+}
+.active {
+    background-color: #c2011b;
+} 
+</style>
+    
+<body style="background-color: black">
+<!-- Page Container -->
+<div class="w3-content w3-margin-top w3-light-grey" style="max-width:1400px;">
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#profile">Profile</a></li>
+  <li><a href="#msg">Messages</a></li>
+  <li style="float:right"><a class="active" href="#signout">Sign out</a></li>
+</ul>
+    
+  <!-- The Grid -->
+  <div class="w3-row-padding ">
+      
+    <!-- Left Column -->
+    <div class="w3-third w3-transparent">
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container ">
+          <img src= "Pics/avi.jpg" style="display: block; margin-left: auto; margin-right: auto; width:80%;" alt="Avatar" >
+          <div class="name_tag">
+            <h2 align="center">Demetis Brown</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p>Lives in <span style="color:blue">Radford, VA</span></p>
+          <p>Grade <span style="color: blue">Junior class of 2020</span></p>
+          <p>Major <spam style="color: blue">Computer Science, Software Engineer</spam></p>
+          <p>born on <span style="color: blue"> January 21,1998</span></p>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+      
+    <!-- Right Column -->
+    <div class="w3-twothird">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="about_heather" align="center">About me</h2>
+        <div class="w3-container">
+          <textarea rows="4" cols="100">Welcome to my page its ya boy demeatis, im really into fitness, traveling, and adventures. i also do enjoy long walks to the dinning hall so message me if youre down to get some food.</textarea>
+            <br>
+            <button class="edit">Save</button>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Friends</b></h5>
+           <img src="Pics/pika.jpg" class="w3-circle" alt="pika" width="120" height="120">
+           <img src="Pics/bugs.jpg" class="w3-circle" alt="bugs" width="120" height="120">
+           <img src="Pics/luigi.jpeg" class="w3-circle" alt="luigi" width="120" height="120">
+           <img src="Pics/yoda.jpg" class="w3-circle" alt="yoda" width="120" height="120">
+           <img src="Pics/drake.jpg" class="w3-circle" alt="drake" width="120" height="120">
+           <img src="Pics/baby.jpg" class="w3-circle" alt="baby" width="120" height="120">
+          <hr>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+
+</body>
+</html>
